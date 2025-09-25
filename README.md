@@ -6,11 +6,11 @@ Projeto fullstack criado no Visual Studio utilizando C#, JavaScript, HTML e CSS.
 Este é um site desenvolvido para praticar conceitos de **desenvolvimento fullstack** utilizando **C#, JavaScript, HTML e CSS** no Visual Studio.  
 O objetivo do projeto é explorar a criação de páginas dinâmicas, sistema de autenticação simples e área administrativa.
 
-🔗 **Acesse o site aqui:** [giovaniolivr.somee.com](http://giovaniolivr.somee.com)
+**Acesse o site aqui:** [giovaniolivr.somee.com](http://giovaniolivr.somee.com)
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 O site é composto por várias seções principais:
 
@@ -22,7 +22,7 @@ O site é composto por várias seções principais:
   - **Estruturas de Dados**
 
 - **Tela de Login**:  
-  Sistema básico de login com validação de credenciais hardcoded.
+  Sistema básico de login com validação de credenciais.
 
 - **Tela de Logs**:  
   Mostra informações e erros registrados no sistema.
@@ -32,7 +32,7 @@ O site é composto por várias seções principais:
 
 ---
 
-## 🔑 Login de administrador
+## Login de administrador
 
 O acesso à área administrativa (Usuários e Logs) é feito com as credenciais:
 
@@ -41,19 +41,19 @@ O acesso à área administrativa (Usuários e Logs) é feito com as credenciais:
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 - **C#** (backend, integração com Visual Studio)  
 - **HTML, CSS e JavaScript** (frontend)  
 
 ---
 
-## 📚 Observações
+## Observações
 - O login foi implementado de forma simples e **não é seguro** para uso em produção.  
 - O projeto é **exclusivamente para fins de estudo**.  
 - Melhorias, sugestões e contribuições são bem-vindas. 😃
 
 ---
 
-## 📜 Licença
+## Licença
 Este projeto é apenas para estudo e não possui licença específica.
 
