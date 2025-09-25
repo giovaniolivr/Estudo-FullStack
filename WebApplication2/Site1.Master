@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- CSS PROJECT -->
+    <link href="CSS/Projeto.css" rel="stylesheet" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+
+    <!--- JavaScript -->
+    <script src="JavaScript/jquery-1.7.2.min.js"></script>
+    <script src="JavaScript/flexslider.min.js"></script>
+    <link href="JavaScript/flexslider.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Cabeçalho -->
+        <header class="cabecalho content-wrap">
+            <!-- Logomarca -->
+            <div class="logomarca">
+                <asp:Image ID="Image1" ImageUrl="~/Images/logomarca1.png" runat="server" />
+            </div>
+
+            <!-- Barra Titulo -->
+            <div class="barra-titulo">
+            </div>
+
+            <!-- Barra Menu -->
+            <div class="barra-menu">
+                <asp:HyperLink NavigateUrl="~/Default.aspx" ID="HyperLink1" runat="server">HOME</asp:HyperLink>
+                <asp:HyperLink NavigateUrl="~/Contato.aspx" ID="HyperLink2" runat="server">CONTATO</asp:HyperLink>
+                <asp:HyperLink NavigateUrl="~/Logs.aspx" ID="HyperLink3" runat="server">LOGS</asp:HyperLink>
+                <asp:HyperLink NavigateUrl="~/Cadastro.aspx" ID="HyperLink4" runat="server">CADASTRO</asp:HyperLink>
+            </div>
+        </header>
+        <!-- Páginas de conteúdo -->
+        <main class="conteudo content-wrap">
+            <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+            </asp:ContentPlaceHolder>
+        </main> 
+
+        <!-- Rodapé -->
+        <footer class="rodape">
+            <div class="content-wrap">
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>

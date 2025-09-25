@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Biblioteca</name>
+    </assembly>
+    <members>
+        <member name="T:Biblioteca.TratarExcecoes">
+            <summary>
+            Classe para Salvar, Ler e Excluir exceções do arquivo de log
+            </summary>
+        </member>
+        <member name="P:Biblioteca.TratarExcecoes.UltimaExcecao">
+            <summary>
+            Obtém a última exceção ocorrida
+            </summary>
+        </member>
+        <member name="P:Biblioteca.TratarExcecoes.ExibeCaminho">
+            <summary>
+            Exibe o caminho físico onde o arquivo de log está gravado   
+            </summary>
+        </member>
+        <member name="P:Biblioteca.TratarExcecoes.AlterarNome">
+            <summary>
+            Altera o nome do arquivo de exceções
+            </summary>
+        </member>
+        <member name="M:Biblioteca.TratarExcecoes.SalvarExcecoes(System.Exception)">
+            <summary>
+            Salva os dados da exceção corrente no arquivo de log21
+            </summary>
+            <param name="ex">Uma representação da classe Exception</param>
+        </member>
+        <member name="M:Biblioteca.TratarExcecoes.LerLogs">
+            <summary>
+            Retorna os dados do arquivo de Log
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Biblioteca.TratarExcecoes.ExcluirLogs">
+            <summary>
+            Exclui os dados do arquivo de Log
+            </summary>
+        </member>
+    </members>
+</doc>
