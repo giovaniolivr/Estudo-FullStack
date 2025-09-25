@@ -50,7 +50,6 @@ O acesso à área administrativa (Usuários e Logs) é feito com as credenciais:
 ## Observações
 - O login foi implementado de forma simples e **não é seguro** para uso em produção.  
 - O projeto é **exclusivamente para fins de estudo**.  
-- Melhorias, sugestões e contribuições são bem-vindas. 😃
 
 ---
 
